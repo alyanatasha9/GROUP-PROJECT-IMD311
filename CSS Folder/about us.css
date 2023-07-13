@@ -1,0 +1,73 @@
+body {
+  background-color: #f6eee0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 19px;
+  text-align: center;
+  background: #955670;
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #d3bbdd;
+}
+
+p1 {
+  font-size: 18;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #955670;
+  color: white;
+}
